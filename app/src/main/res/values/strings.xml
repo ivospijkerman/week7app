@@ -5,4 +5,5 @@
     <string name="picasso">Picasso</string>
     <string name="loading">Loading...</string>
     <string name="api_path">https://randomuser.me/api</string>
+    <string name="image_url">http://i.imgur.com/DvpvklR.png</string>
 </resources>

@@ -25,6 +25,7 @@ android {
 dependencies {
     // Added manually
     implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.squareup.picasso:picasso:2.71828'
 
     // Automatically added
     implementation fileTree(dir: 'libs', include: ['*.jar'])

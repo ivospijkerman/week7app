@@ -22,7 +22,7 @@ public class AsyncTaskActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_async_task);
 
-        jsonDump = findViewById(R.id.jsonDumpTextView);
+        jsonDump = findViewById(R.id.textViewJson);
         jsonDump.setText(getString(R.string.loading));
 
         new MyAsyncTask().execute(getString(R.string.api_path));
