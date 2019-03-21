@@ -4,4 +4,5 @@
     <string name="volley">Volley</string>
     <string name="picasso">Picasso</string>
     <string name="loading">Loading...</string>
+    <string name="api_path">https://randomuser.me/api</string>
 </resources>

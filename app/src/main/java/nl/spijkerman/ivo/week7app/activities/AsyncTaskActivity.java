@@ -25,7 +25,7 @@ public class AsyncTaskActivity extends AppCompatActivity {
         jsonDump = findViewById(R.id.jsonDumpTextView);
         jsonDump.setText(getString(R.string.loading));
 
-        new MyAsyncTask().execute("https://randomuser.me/api");
+        new MyAsyncTask().execute(getString(R.string.api_path));
     }
 
     private class MyAsyncTask extends AsyncTask<String, Void, String> {
